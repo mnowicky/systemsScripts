@@ -1,0 +1,1 @@
+Get-ADComputer -Filter * -Property Name, OperatingSystem, OperatingSystemServicePack, OperatingSystemVersion | Format-Table Name, OperatingSystem, OperatingSystemServicePack, OperatingSystemVersion -Wrap -Auto
